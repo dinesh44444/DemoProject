@@ -37,7 +37,6 @@ public class ExcelSheet {
 		String c = sheet1.getRow(2).getCell(1).getStringCellValue();
 		String d = sheet1.getRow(2).getCell(2).getStringCellValue();
 		String e = sheet1.getRow(3).getCell(1).getStringCellValue();
-		String f = sheet1.getRow(3).getCell(2).getStringCellValue();
 		
 		Thread.sleep(2000);
 		
@@ -47,6 +46,8 @@ public class ExcelSheet {
 		System.out.println(d);
 		System.out.println(e);
 		System.out.println(f);
+		
+		
 		
 
 	}
